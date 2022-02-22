@@ -1,74 +1,121 @@
-*{
-    margin-top: 10px;
-    margin-left: auto;
-    padding: 0;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 body{
-    background-color: #93ccff;
-    font-family: 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
+    background: #F3F5FC;
+    font-family: 'Inter', sans-serif;
 }
 
-.box{
-    background-color: lightcyan;
-    padding: 10px;
-    margin: 0 10px 0 10px;
-    width: 50%;
-    height: auto;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 15px;
+#logo{
+
+    margin-top:  40px;
+    margin-left: 84px;
 }
 
-.main {
-    width: 80vw;
-    margin: auto;
-    display: flex;
-    
-  }
 .text-input{
-    border-radius: 5px;
-    height: 100px;
-    width: 95%;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-    font-size: large;
-    font-family: inherit;
-    color: rgb(5, 1, 37);
-}
-.h3-box{
-    margin-top: 2px;
-    margin-bottom: 10px;
-    margin-left: 25%;
-    color:rgb(13, 13, 78)
-}
-.h3-msg{
-    margin-left: 30%;
-    margin-top: 2px;
-    margin-bottom: 10px;
-    color:rgb(13, 13, 78);
+    display: block;
+    margin-top: 80px;
+    margin-left: 15%;
+    width: 680px;
+    height: 288px;
+    border: none;
+    background: none;   
+    color: #0A3871;
+    font-size: 32px;
+    line-height: 150%;
+    outline: none;
 }
 
-h1{
-    margin-left: 45%;
-    color:rgb(13, 13, 78)
-}
-.btn1{
-    margin-top: 15px;
-    margin-right: 22%;
-    margin-left: 2%;
-    background-color: white;
-    color: rgb(45, 25, 223);
-    width: 120px;
-    height: 35px;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
+.text-input::placeholder{
+    color: #0A3871;
+    font-weight: normal;
 }
 
-.btn2{
-    margin-top: 15px;
-    margin-left: 35%;
-    background-color: white;
-    color: rgb(45, 25, 223);
-    width: 120px;
-    height: 35px;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 5px;    
+.button-area{
+    margin-top: 318px;
+    margin-left: 15%;
+
 }
+
+.button-area p {
+    color: #495057;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+}
+
+.btn-encriptar{
+    background: #0A3871;
+    border-radius: 24px;
+    color: #FFFFFF;
+    width: 328px;
+    height: 67px;
+    cursor: pointer;
+    transition: 1s all;
+}
+
+.btn-encriptar:hover{
+    transform: scale(1.1);
+}
+
+
+.btn-desencriptar{
+    background: none;
+    margin-left: 20px;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    color: #0A3871;
+    width: 328px;
+    height: 67px;
+    cursor: pointer;
+    transition: 1s all;
+}
+
+.btn-desencriptar:hover{
+    transform: scale(1.1);
+}
+
+.msg-box{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    width: 400px;
+    height: 860px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0,0,0,0,0.8);
+    border-radius: 32px;
+}
+
+.text-msg{
+    margin: 32px;
+    width: 336px;
+    height: 680px;
+    border: none;
+    background: none;   
+    color: #495057;
+    font-size: 32px;
+    line-height: 150%;
+    outline: none;
+
+}
+
+.text-msg::placeholder{
+    background: url(Imagenes/Muñeco.png) center no-repeat;
+}
+
+.btn-copy{
+    margin: 32px;
+    background: none;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    color: #0A3871;
+    width: 328px;
+    height: 67px;
+    cursor: pointer;
+    transition: 1s all;
+}
+
+.btn-copy:hover{
+    transform: scale(1.1);
+}
+
