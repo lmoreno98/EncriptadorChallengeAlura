@@ -9,21 +9,22 @@
 </head>
 
 <body>
-    <h1>Encriptador</h1>
-    <main class = "main">
-        <section class="form box">
-            <h3 class ="h3-box">Solo letras minúsculas, sin acento</h3>
+    <main>
+        <img id="logo" src="Imagenes/a.png" alt="Logo alura">
+        <div class="form box">
             <textarea class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui"></textarea>
-            <button class="btn1" id="btn-encriptar">Encriptar!</button>
-            <button class="btn1" id="btn-desencriptar">Desencriptar!</button>
-        </section>
+            <div class= "button-area">
+                <p>&#33; Apenas letras minusculas y sin acentos</p>
+                <button class="btn-encriptar" id="btn-encriptar">Encriptar!</button>
+                <button class="btn-desencriptar" id="btn-desencriptar">Desencriptar!</button>
 
-        <section class="msg box">
-            <h3 class="h3-msg">Mensaje encriptado</h3>
-            <textarea class="text-input" type="text" id="msg"></textarea>
-            <button class="btn2" id="btn-copiar">Copiar</button>
-          </section>
-        </section>
+            </div>
+        </div>
+
+        <div class="msg-box">
+            <textarea class="text-msg" type="text" id="msg" placeholder="Ningun mensaje fue encontrado "></textarea>
+            <button class="btn-copy" id="btn-copiar">Copiar</button>
+          </div>
     </main>
     <script src="script.js"></script>
 </body>
